@@ -5,9 +5,10 @@ import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import NotFound from './components/NotFound/NotFound';
 import Login from './components/Login/Login';
-import Registrtion from './components/Registrtion/Registrtion';
+import Registration from './components/Registration/Registration';
 import Footer from './components/Footer/Footer';
 import AuthProvider from './components/context/AuthProvider';
+import Doctors from './components/Doctors/Doctors';
 
 function App() {
   return (
@@ -25,8 +26,11 @@ function App() {
             <Route path="/services">
               <Services></Services>
             </Route>
+            <Route path="/doctors">
+              <Doctors></Doctors>
+            </Route>
             <Route path="/registration">
-              <Registrtion></Registrtion>
+              <Registration></Registration>
             </Route>
             <Route path="/login">
               <Login></Login>

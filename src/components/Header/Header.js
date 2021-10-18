@@ -7,8 +7,10 @@ const Header = () => {
         <div className="bg-info p-4">
             <NavLink className="header-nav" to="/home">Home</NavLink>
             <NavLink className="header-nav" to="/services">Services</NavLink>
-            <NavLink className="header-nav" to="/registration">Registration</NavLink>
+            {/* <NavLink className="header-nav" to="/registration">Registration</NavLink> */}
+            <NavLink className="header-nav" to="/doctors">Doctors</NavLink>
             <NavLink className="header-nav" to="/login">Login</NavLink>
+
         </div>
     );
 };
