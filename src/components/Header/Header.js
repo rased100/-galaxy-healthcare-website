@@ -17,7 +17,7 @@ const Header = () => {
             {user?.displayName ?
                 <span>
                     <span>
-                        Profile Name: {user.displayName}
+                        User Name: {user.displayName}
                     </span>
                     <span className="mx-2">
                         <img src={user.photoURL} className="rounded-circle photo" alt="" />
