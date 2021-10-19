@@ -6,21 +6,20 @@ import './Registration.css';
 const Registration = () => {
     const { handleGoogleSignIn } = useAuth();
     return (
-        <div className="registration">
+        <div className="container w-50">
             <div>
-                <h2>Registration: Create an Account</h2>
+                <h2>Registration form</h2>
                 <form>
-                    <input type="email" name="" id="" placeholder="Your Email" />
-                    <br />
-                    <input type="password" name="" id="" placeholder="Your Password" />
-                    <br />
-                    <input type="password" name="" id="" placeholder="Re-enter Password" />
-                    <br /><br />
-                    <input className="btn btn-primary" type="submit" value="Registration" /><br /><br />
+                    <input className="form-control m-2" type="text" placeholder="Your Name" />
+                    <input className="form-control m-2" type="text" placeholder="Your Address" />
+                    <input className="form-control m-2" type="email" name="" id="" placeholder="Your Email" />
+                    <input className="form-control m-2" type="password" name="" id="" placeholder="Your Password" />
+                    <input className="form-control m-2" type="password" name="" id="" placeholder="Re-enter Password" />
+                    <input className="form-control m-2 btn btn-primary" type="submit" value="Registration" />
                 </form>
                 <p>Already have an account? <Link to="/login">Login</Link></p>
-                <div className="m-5">----------or-------------</div>
-                <button onClick={handleGoogleSignIn} className="btn btn-primary m-5">Sign in with google</button>
+                <div>---------- or ----------</div>
+                <button onClick={handleGoogleSignIn} className="btn btn-primary form-control m-2">Sign in with google</button>
             </div>
         </div>
     );
