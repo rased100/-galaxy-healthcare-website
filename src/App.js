@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';
 import AuthProvider from './components/context/AuthProvider';
 import Doctors from './components/Doctors/Doctors';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import ServiceDetail from './components/ServiceSetail/ServiceDetail';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
             </Route>
             <Route path="/services">
               <Services></Services>
+            </Route>
+            <Route path="/service/:serviceId">
+              <ServiceDetail></ServiceDetail>
             </Route>
             <PrivateRoute path="/doctors">
               <Doctors></Doctors>

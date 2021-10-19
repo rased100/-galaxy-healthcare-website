@@ -6,8 +6,9 @@ initializeFirebaseAuth();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
+    // console.log('user', user)
     const [services, setServices] = useState([]);
-    console.log(services)
+    console.log(services[0])
     useEffect(() => {
         fetch('./data.json')
             .then(res => res.json())
