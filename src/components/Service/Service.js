@@ -6,11 +6,11 @@ const Service = (props) => {
     const url = `/service/${sl}`;
     return (
         <div className="col-lg-4">
-            <div className="p-2 m-2 bg-secondary service">
+            <div className="p-2 m-2 service">
                 <img src={image} alt="" />
                 <h3>{sl}. {serviceName}</h3>
                 <p>{description}</p>
-                <Link to={url}>Visit</Link>
+                <Link to={url}><button className="btn btn-primary">Get Service</button></Link>
             </div>
         </div>
     );

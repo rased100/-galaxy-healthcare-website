@@ -1,14 +1,14 @@
 [
     {
         "sl": "1",
-        "serviceName": "X-Ray And X-Ray Procedures",
+        "serviceName": "X-Ray Procedures",
         "description": "We use digital computeted radiography technique at Neptune Diagnostics",
         "image": "https://5.imimg.com/data5/AE/QF/GLADMIN-71341152/1-500x500.png"
     },
     {
         "sl": "2",
-        "serviceName": "Whole Body Ultrasound",
-        "description": "Ultrasound is the term used for high-frequency soundwaves. Ultrasound examinations use",
+        "serviceName": "Ultrasound",
+        "description": "Ultrasound is the term used for high-frequency soundwaves.",
         "image": "https://www.ucsfbenioffchildrens.org/-/media/project/ucsf/ucsf-bch/images/medical-tests/hero/abdominal-ultrasound-708x556-2x.jpg"
     },
     {
@@ -37,13 +37,13 @@
     },
     {
         "sl": "7",
-        "serviceName": "Pregnancy ultrasound and planning",
+        "serviceName": "Pregnancy ultrasound",
         "description": "Fetal ultrasound (sonogram) is a technique that uses sound waves that is produced",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRIIde0DcY0HqUyLxLQ_bT3SPu2xnC3ATQFQ&usqp=CAU"
     },
     {
         "sl": "8",
-        "serviceName": "Home-Based Portable Digital X-Ray",
+        "serviceName": "Portable Digital X-Ray",
         "description": "No need to travel to any X-Ray centre anymore with your broken bones or in pain, rather let",
         "image": "https://www.or-technology.com/images/Menubilder/Amadeo-mobil/Roentgengeraet-X-ray-machine-Amadeo-M-mini.png"
     },
