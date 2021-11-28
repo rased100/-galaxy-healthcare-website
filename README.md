@@ -1,8 +1,8 @@
 # Galaxy Diagnostic Centre
 
-Code Link: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-rased100
-
 Live Site: https://assignment-healthcare.web.app/
+
+Code Link: https://github.com/rased100/galaxy-healthcare-website
 
 
 - This website about Diagnostic Centre.
